@@ -8,3 +8,4 @@ data/raw/
 .streamlit/secrets.toml
 node_modules/
 models/saved/
+data/features/
