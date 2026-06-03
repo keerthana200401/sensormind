@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+joblib
+streamlit
+plotly
+anthropic
+chromadb
+sentence-transformers
+python-dotenv
+sqlalchemy
+pymysql
+fastapi
+uvicorn
