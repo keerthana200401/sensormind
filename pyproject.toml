@@ -1,7 +1,13 @@
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.backends.legacy:build"
-
-[project]
+[tool.poetry]
 name = "sensormind"
 version = "1.0.0"
+description = "AI-powered predictive maintenance"
+authors = ["keerthana"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
